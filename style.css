@@ -1,0 +1,215 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  background-color: #0392BF;   
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+  .navbar{
+    height: 50px;
+  }
+  .sidenav {
+    height: 100%;
+    width: 7%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #8dcee2;
+    overflow: hidden;
+    padding-top: 20px;
+  }
+  .navbar-toggler-icon{
+    margin-left: 20px;
+  }
+
+  .icons{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+    
+  }
+  .icon{
+    align-self: flex-end;
+  }
+
+  .diva{
+    margin: 0 auto;
+  }
+
+  ul {
+    list-style-type: none;
+    
+  }
+  li{
+    display: inline;
+    
+  }
+  a, .nav-link{
+    text-decoration: none;
+    color: #ffe;
+    margin: 10px 20px 5px 90px;
+  }
+  a:hover {
+    /* background-color: #000; */
+    color: #000;
+   
+}
+  
+  .skate{
+    width: 15rem;
+    margin-left: 30%;
+  }
+  .price{
+    font-weight: bold;
+  }
+  .heading-s{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 20% 0 35%;
+  }
+  .heading{
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .slogan{
+    margin-bottom:10px ;
+    font-size: 25px;
+  }
+  .para{
+    padding-top: 5px;
+    font-size: 16px;
+    margin-bottom: 5px ;
+    text-align: left;
+  }
+  .btn{
+    cursor: pointer;
+    width: 4%;
+    height: 4%;
+    border-radius: 50%;
+    border-style: none;
+    margin: 5px 0 0 15px;
+  }
+  .btn:hover {
+    background-color: #fff;
+    color: white;
+   
+}
+  .b{
+    /* background-color: #2ca7cc;  */
+    background-color: #0392BF;  
+  }
+  .p{
+    background-color:#ED48BA;   
+  }
+  .y{
+    background-color : #FBEC06;  
+  }
+  .g{
+    background-color:#B3D4E0;   
+  }
+  .choice{
+     width: 40%;
+      padding: 5px 5px;  
+      border-radius: 2px;
+      border-style: solid;
+      border-color: white;
+      background-color: transparent;  
+  }
+  .order{
+    width: 40%;
+    padding: 10px 5px;  
+    border-radius: 2px;
+    border: none;  
+    cursor: pointer;
+    background-color:#ED48BA;
+    color: #fff;
+  }
+  .order:hover {
+    background-color: #000;
+    color: white;
+   
+}
+
+  @media (max-width: 992px) {
+    .order{
+      width: 55%;
+    }
+  }
+
+  @media (max-width: 766px) {
+    .order{
+      width: 55%;
+    }
+    .heading{
+      text-align: center;
+      font-size: 25px;
+      margin-top: 40px;
+      
+    }
+    .slogan{
+      text-align: center;
+      
+    }
+    .para{
+      text-align: center;
+    }
+    .price{
+      text-align: center;
+    }
+    .btn{
+      margin: 15px 20px;
+    }
+    .order-div{
+      margin: 5px auto;
+    }
+    .order{
+      margin: 5px 20%;
+    }
+    .sidenav{
+      display: none;
+    }
+    .heading-s{
+      font-size: 40px;
+      margin: 0% 0%;
+      text-align: center;
+    }
+    .star{
+      text-align: center;
+    }
+    
+  }
+  @media (max-width: 500px) {
+    .skate{
+      display: none;
+    }
+    .heading-s{
+      font-size: 40px;
+      margin: 70% 28% 0% 28%;
+      text-align: center;
+    }
+
+  }
+
+  @media (max-width: 348px) {
+    .btn{
+      margin: 15px 15px;
+    }
+    .heading-s{
+      font-size: 40px;
+      margin: 80% 28% 0% 28%;
+      text-align: center;
+    }
+    .skate{
+      display: none;
+    }
+  }
